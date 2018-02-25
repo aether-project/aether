@@ -2,20 +2,15 @@
 
 #### Ubuntu 16.04+ and MacOS 10.10+
 
-There is a bash installation script for Ubuntu 16.04+ and MacOS 10.10+ which can be used to checkout and build the project from source:
+### Linux requirements
 
-`$ curl -sL "https://raw.githubusercontent.com/turtlecoin/turtlecoin/master/multi_installer.sh" | bash `
+Easy to use dependencies installation script:
 
-On Ubuntu you will be asked for sudo rights to install software. The binaries will be in `./src` after compilation is complete.
-
-This script can be used from inside the git repository to build the project from the checked out source, `./multi_installer.sh`
-
-See the script for more installation details and please consider extending it for your operating system and distribution!
-
+https://github.com/aether-project/aether/blob/master/install_dependencies.sh
 
 #### Windows 10
 
-### Windows requirements install instructions
+### Windows requirements
 
 1. Install MinGW (default install) <br />
 http://sourceforge.net/projects/mingw/files/Installer/mingw-get-setup.exe/download
@@ -51,7 +46,7 @@ https://www.python.org/ftp/python/2.7.9/python-2.7.9.amd64.msi
 ##### Building
 
 - From the start menu, open 'x64 Native Tools Command Prompt for vs2017'.
-- `cd <your_turtlecoin_directory>`
+- `cd <yourAetherDirectory>`
 - `mkdir build`
 - `cd build`
 - Set the PATH variable for cmake: ie. `set PATH="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin";%PATH%`
@@ -71,8 +66,8 @@ https://www.python.org/ftp/python/2.7.9/python-2.7.9.amd64.msi
 
 ##### Building
 
-- `git clone https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone https://github.com/aether-project/aether`
+- `cd aether`
 - `mkdir build && cd $_`
 - `cmake ..` or `cmake -DBOOST_ROOT=<path_to_boost_install> ..` when building
   from a specific boost install
@@ -81,4 +76,4 @@ https://www.python.org/ftp/python/2.7.9/python-2.7.9.amd64.msi
 The binaries will be in `./src` after compilation is complete.
 
 #### Thanks
-Cryptonote Developers, Bytecoin Developers, Monero Developers, Forknote Project, TurtleCoin Community
+Cryptonote Developers, Bytecoin Developers, Monero Developers, Forknote Project
