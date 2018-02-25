@@ -4,8 +4,7 @@
 
 ### Linux requirements
 
-Easy to use dependencies installation script:
-
+Easy to use dependencies installation script (tested on Ubuntu 16.04 64 Bit):
 https://github.com/aether-project/aether/blob/master/install_dependencies.sh
 
 #### Windows 10
@@ -63,6 +62,9 @@ https://www.python.org/ftp/python/2.7.9/python-2.7.9.amd64.msi
 - Install [cmake](https://cmake.org/). See [here](https://stackoverflow.com/questions/23849962/cmake-installer-for-mac-fails-to-create-usr-bin-symlinks) if you are unable call `cmake` from the terminal after installing.
 - Install the [boost](http://www.boost.org/) libraries. Either compile boost manually or run `brew install boost`.
 - Install XCode and Developer Tools.
+
+Easy to use dependencies installation script:
+https://github.com/aether-project/aether/blob/master/install_dependencies.sh
 
 ##### Building
 
